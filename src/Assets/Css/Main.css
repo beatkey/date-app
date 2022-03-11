@@ -1,0 +1,25 @@
+@import "https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css";
+body {
+  color: #E3DFFF;
+  font-family: "Gilroy", sans-serif;
+}
+
+.App {
+  height: 100vh;
+}
+
+.Login {
+  background-color: #3D3A4B;
+  height: 100%;
+}
+.Login form input {
+  background-color: transparent;
+  padding: 5px 0;
+  border-bottom: 1.5px solid #E3DFFF;
+  outline: none;
+}
+.Login form input::placeholder {
+  color: #E3DFFF;
+}
+
+/*# sourceMappingURL=Main.css.map */
