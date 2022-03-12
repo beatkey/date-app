@@ -1,16 +1,17 @@
 @import "https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css"
 
 $MainColor: #E3DFFF
+$Color1: #3D3A4B
 
 body
    color: $MainColor
    font-family: 'Gilroy', sans-serif
 
 .App
-   height: 100vh
+   min-height: 100vh
 
 .Login
-   background-color: #3D3A4B
+   background-color: $Color1
    height: 100%
    form
       input
@@ -20,3 +21,18 @@ body
          outline: none
          &::placeholder
             color: $MainColor
+   .LoginButton
+      background-color: $MainColor
+      color: $Color1
+      border-radius: 40px
+      padding: 20px 50px
+      font-weight: 700
+      font-size: 1.15em
+   .FacebookButton
+      color: $MainColor
+      border-radius: 40px
+      padding: 15px 25px
+      font-weight: 400
+      font-size: .9em
+      border: 1.5px solid $MainColor
+
