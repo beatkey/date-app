@@ -12,13 +12,16 @@ body {
   background-color: #3D3A4B;
   height: 100%;
 }
-.Login form input {
+.Login form input, .Login form select {
   background-color: transparent;
   padding: 5px 0;
   border-bottom: 1.5px solid #E3DFFF;
   outline: none;
 }
-.Login form input::placeholder {
+.Login form input option, .Login form select option {
+  padding: unset;
+}
+.Login form input::placeholder, .Login form select::placeholder {
   color: #E3DFFF;
 }
 .Login .LoginButton {

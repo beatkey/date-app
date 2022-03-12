@@ -28,7 +28,7 @@ function Login() {
                       <span className="ml-2">Sign in with Facebook</span>
                   </button>
               </div>
-              <p className="my-4 font-light">Don’t have an account? <span className="font-medium">Sign Up</span></p>
+              <p className="my-4 font-light">Don’t have an account? <a href="/sign-up" className="font-medium">Sign Up</a></p>
           </div>
       </div>
     );
